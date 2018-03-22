@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviewname"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="TextViewName"
+        android:textAlignment="center"
+
+        />
+
+    <EditText
+
+        android:inputType="textPersonName"
+        android:ems="12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter the new name"
+        android:id="@+id/edittext"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="update"
+        android:id="@+id/buttonupdata"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="delete button"
+        android:id="@+id/buttonDelete"
+        />
+
+
+</LinearLayout>
